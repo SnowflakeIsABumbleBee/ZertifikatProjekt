@@ -1,7 +1,7 @@
 
 public interface Zertifizierbar {
 
-    void zertifikatErwerben(Student student);
+    int zertifikatErwerben(Student student);
 
     boolean hatZertifikat(Student student);
 }
